@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css';
 import MyComponent from './components/MyComponent';
 import ToggleMode from './components/ToggleMode';
+import Pacman from './components/Pacman';
 
 function App() {
   let message = "Hey there";
@@ -14,6 +15,7 @@ function App() {
 
        <MyComponent/>
        <ToggleMode/>
+       <Pacman/>
 
       </header>
     </div>
